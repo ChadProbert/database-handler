@@ -1,0 +1,28 @@
+/* used !important to override styling config set by materialUI and MDBreact */
+
+th {
+	background-color: rgb(25, 118, 210) !important;
+	border-bottom: 2px solid rgb(25, 118, 210) !important;
+}
+
+.table {
+	/* aligned with the forms */
+	margin-top: 20px;
+	background-color: white;
+}
+
+/* added a border radius effect around the table */
+.leftTableCorner {
+	border-top-left-radius: 7px;
+}
+.rightTableCorner {
+	border-top-right-radius: 7px;
+}
+
+/* applied a custom colour to materialUI button */
+.filterButton {
+	background-color: rgb(25, 118, 210) !important;
+}
+.filterButton:hover {
+	background-color: rgb(19, 102, 185) !important;
+}
