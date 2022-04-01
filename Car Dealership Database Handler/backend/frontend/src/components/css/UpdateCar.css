@@ -1,0 +1,27 @@
+/* used !important to override styling config set by materialUI */
+
+.carMakeInput,
+.carModelInput,
+.carYearInput,
+.carOwnerInput,
+.carRegNumInput {
+	margin-bottom: 20px !important;
+	width: 100%;
+}
+
+/* applied a custom colour to materialUI button */
+.updateCarButton {
+	background-color: rgb(255, 193, 7) !important;
+}
+.updateCarButton:hover {
+	background-color: rgb(228, 171, 1) !important;
+}
+
+.updateCarForm {
+	margin: 20px;
+	text-align: left;
+}
+
+.caseSensitive {
+	color: darkred;
+}

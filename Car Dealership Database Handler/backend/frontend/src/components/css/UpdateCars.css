@@ -1,0 +1,23 @@
+.currentOwnerInput,
+.newOwnerInput {
+	margin-bottom: 20px !important;
+	width: 100%;
+	background-color: white;
+}
+
+/* applied a custom colour to materialUI button */
+.updateCarsButton {
+	background-color: rgb(255, 193, 7) !important;
+}
+.updateCarsButton:hover {
+	background-color: rgb(228, 171, 1) !important;
+}
+
+.updateCarsForm {
+	margin: 20px;
+	text-align: left;
+}
+
+.caseSensitive {
+	color: darkred;
+}
